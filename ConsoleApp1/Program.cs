@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             Student stu = new Student();
             //静态变量--->静态构造函数--->构造函数
-
+            //DDS
             Console.ReadKey();
         }
     }
