@@ -19,9 +19,16 @@ namespace ConsoleApp1
             Student.DoSomething delDo = new Student.DoSomething(Do);
             //delDo("我是一个委托");
             //delDo.Invoke($"我是一个委托{nameof(delDo.Invoke)}");
-            delDo.BeginInvoke($"我是一个委托{nameof(delDo.BeginInvoke)}", (Done) => { }, null);
-            Console.WriteLine("1111111111111111");
-            Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+            //delDo.BeginInvoke($"我是一个委托{nameof(delDo.BeginInvoke)}", (Done) => { }, null);
+            //Console.WriteLine("1111111111111111");
+            //Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
+
+            Deck deck = new Deck();
+            Console.WriteLine(deck.GetCard(45));
+            deck.Refresh();
+            Console.WriteLine(deck.GetCard(45));
+
+
             Console.ReadKey();
         }
 
