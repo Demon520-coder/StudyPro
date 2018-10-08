@@ -10,9 +10,27 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            Runner runner = new Runner(person);
-            person.FinishRun(); //触发事件;
+            //Person person = new Person();
+            //Runner runner = new Runner(person);
+            //person.FinishRun(); //触发事件;
+
+            ITest test = new Test();
+            test.Print("接口测试");
+
+            List<string> list = new List<string>();
+            for (int i = 0; i < 10; i++)
+            {
+                list.Add(i.ToString());
+            }
+
+            
+
+            var listEnumerator = list.GetEnumerator();
+            while (listEnumerator.MoveNext())
+            {
+                Console.WriteLine(listEnumerator.Current);
+            }
+
             Console.ReadKey();
         }
     }

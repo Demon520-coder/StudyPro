@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8911C269-CECB-464D-97D3-491E44F6E970}</ProjectGuid>
+    <ProjectGuid>{5158CE10-9468-402D-A9BE-B91F4CD20630}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp2</RootNamespace>
-    <AssemblyName>ConsoleApp2</AssemblyName>
+    <RootNamespace>TrafficApp</RootNamespace>
+    <AssemblyName>TrafficApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ITest.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="EnumHelper.cs" />
+    <Compile Include="LightColor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Runner.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="StringExt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
