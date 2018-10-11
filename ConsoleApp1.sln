@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PietApp", "PietApp\PietApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficApp", "TrafficApp\TrafficApp.csproj", "{5158CE10-9468-402D-A9BE-B91F4CD20630}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncApp", "AsyncApp\AsyncApp.csproj", "{EDCB47CF-9C9B-4029-9A6B-71DE9C56F62D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{CD9B08DB-2288-41AB-BBA3-0B0519B7836E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{5158CE10-9468-402D-A9BE-B91F4CD20630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5158CE10-9468-402D-A9BE-B91F4CD20630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5158CE10-9468-402D-A9BE-B91F4CD20630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCB47CF-9C9B-4029-9A6B-71DE9C56F62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCB47CF-9C9B-4029-9A6B-71DE9C56F62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCB47CF-9C9B-4029-9A6B-71DE9C56F62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCB47CF-9C9B-4029-9A6B-71DE9C56F62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9B08DB-2288-41AB-BBA3-0B0519B7836E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9B08DB-2288-41AB-BBA3-0B0519B7836E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9B08DB-2288-41AB-BBA3-0B0519B7836E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9B08DB-2288-41AB-BBA3-0B0519B7836E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

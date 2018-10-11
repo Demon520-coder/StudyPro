@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp2
 {
     /// <summary>
-    /// 订阅者
+    /// 订阅者E:\学习\ConsoleApp1\ConsoleApp2\Runner.cs
     /// </summary>
     public class Runner
     {
